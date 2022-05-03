@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./images/logo.png" type="image/x-icon">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>LiberO'Drive</title>
+  <link rel="shortcut icon" href="logo.png">
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <!-- Content here -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom">
+      <!-- Navbar content -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Accueil</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="connexion.html">Se connecter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inscription.html">Inscription</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Nos services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="voyages.html">Organiser un voyage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aide.html">Aide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="propos.html">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- LIGHT SWITCH -->
+            <li class="nav-item">
+              <div class="d-flex ac ">
+                <div class="form-check form-switch ms-auto mt-3 me-3">
+                  <label class="form-check-label ms-3" for="lightSwitch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-brightness-high" viewBox="0 0 16 16">
+                      <path
+                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                    </svg>
+                  </label>
+                  <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banniere">
+      <img class="logo" src="./images/logo.png" alt="logo">
+    </div>
+    <div class="container-fluid mt-5">
+
+
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+
+  
+
+            
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">aller simple</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">aller retour</label>
+              </div>
+            
+
+
+
+        </div>
+       </div>
+      
+     
+        <div class="row">
+          <div class="col-sm-3">
+            <h6>De</h6>
+            <input type="text" class="form-control" placeholder="📍 Bruxelles" aria-label="First name">
+          </div>
+          <div class="col-sm-3">
+            <h6>à</h6>
+            <input type="text" class="form-control" placeholder="📍 Paris" aria-label="Last name">
+          </div>
+          <div class="col-sm-3">
+            <h6>Départ</h6>
+            <input type="text" class="form-control" placeholder="📅 Date" aria-label="First name">
+          </div>
+          <div class="col-sm-3">
+            <h6>Passagers/Vélos</h6>
+            <input type="text" class="form-control" placeholder="1 Adulte, 0 Vélos" aria-label="Last name">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="bt1">
+    <button type="button" class="btn btn-primary btn-lg">Chercher</button>
+  </div>
+
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Light Switch -->
+  <script src="switch.js"></script>
+</body>
+
+</html>

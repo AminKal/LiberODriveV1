@@ -1,0 +1,71 @@
+#lightSwitch {
+  transform: scale(1.8);
+}
+
+.lien{
+  margin-top: 0%;
+}
+
+.tete
+{
+  height: 315px;
+  width: 315px;
+  margin-left: 40%;
+}
+#mdp{
+  margin-left: 17%;
+}
+.tx1{
+  margin-top: 6%;
+}
+.image-container{
+  text-align: center;
+  margin-top: -12%;
+}
+#tx2{
+  margin-top: -7%;
+  
+  text-align:center;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 400px;
+  
+}
+
+.d-flex{
+  margin-left: 20em;
+}
+.bus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banniere{
+  background-image: url('images/bus2.jpg');
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aller{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  
+}
+.box {
+  display: flex;
+}
+.bt1{
+  margin-top: 7%;
+  margin-left: 75%;
+  color: #0F3960;
+}
+.form-pd{
+  padding: 0% 10%;
+}
